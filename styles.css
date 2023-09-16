@@ -1,0 +1,134 @@
+ body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+ body {
+    font-family: 'Nunito Sans';
+    color: var(--body-text);
+    background-color: var(--bg_default);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+    background-color: var(--bg_body);
+    color: var(--body-text);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--brand-primary);
+    color: rgb(11, 1, 1);
+} 
+
+header h1 {
+    font-weight: 700 ;
+}
+
+button {
+    background: none;
+    border: black;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+button ion-icon {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+/* Part 2: Triangle and Text Styles */
+/* Container for triangles */
+.triangles-container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    height: 100px; /* Adjust the height as needed */
+}
+
+/* Triangle styles */
+.triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+}
+
+.left {
+    border-left: 600px solid transparent;
+    border-right: 600px solid #03C180;
+    border-bottom: 100px solid transparent;
+    left: 0;
+}
+ 
+.right {
+    border-left: 600px solid #0768AC ;
+    border-right: 600px solid transparent;
+    border-bottom: 100px solid transparent;
+    right: 0;
+}
+.center-text {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.center-text p {
+    font-weight: 700;
+}
+.textColor{
+    color:#03C180;
+}
+/* Part 3: Search Bar and Logos Styles */
+.search-section {
+    background-color: var(--bg_default);
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.search-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    
+}
+
+.search-bar select {
+    margin-right: 10px;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logos img {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Part 4: Footer Styles */
+footer {
+    background-color: var(--brand-primary);
+    padding: 20px;
+    text-align: center;
+   
+}
+
+/* Add more styles for other elements as needed */
+
+
+
+
+
